@@ -1,6 +1,6 @@
 # PROFIT
 
-<b>Precision Route Optimization using Fuzzy Inferencing Technology (PROFIT)</b> is a research effort that I began in 2012 and have been working with on and off since then. It uses fuzzy logic cascaded with genetic algorithms to improve the performance of path planning algorithms in applications with uncertain or broad targets. 
+<b>Precision Route Optimization using Fuzzy Inferencing Technology (PROFIT)</b> is a research effort that I began in 2012 and have been working with on and off since then. It uses fuzzy logic cascaded with genetic algorithms to improve the performance of path planning algorithms in applications with uncertain or broad targets. Currently, a comparison of this algorithm with a similar genetic fuzzy algorithm is in the late referee stage of publication to the Journal of Aerospace Information Systems (JAIS).
 
 <h2>Abstract</h2>
 
