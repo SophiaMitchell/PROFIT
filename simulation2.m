@@ -71,9 +71,9 @@ fig = figure('Position',[(scrsz(3)-FIGURE_WIDTH)/2 ...
 fuzz = figure('Position',[(scrsz(3)-FIGURE_WIDTH)/2 ...
             (scrsz(4)-FIGURE_HEIGHT)/2 ...
             FIGURE_WIDTH, FIGURE_HEIGHT]);
-% gene = figure('Position',[(scrsz(3)-FIGURE_WIDTH)/2 ...
-%             (scrsz(4)-FIGURE_HEIGHT)/2 ...
-%             FIGURE_WIDTH, FIGURE_HEIGHT]);
+gene = figure('Position',[(scrsz(3)-FIGURE_WIDTH)/2 ...
+             (scrsz(4)-FIGURE_HEIGHT)/2 ...
+             FIGURE_WIDTH, FIGURE_HEIGHT]);
 doubfuz = figure('Position',[(scrsz(3)-FIGURE_WIDTH)/2 ...
             (scrsz(4)-FIGURE_HEIGHT)/2 ...
             FIGURE_WIDTH, FIGURE_HEIGHT]);
@@ -143,19 +143,6 @@ areaY = [];
         %places the rover on the screen
         roverPlot = plot(0,0, '-', 'LineWidth',2);
         set(roverPlot, 'Color', ROVER_COLOR);        
-    end
-
-%------------newGame------------
-%resets game to starting conditions.
-%called from main loop at program start
-%called from keydown when user hits 'r'
-%sets some variables, calls reset game,
-%and calls pauseGame with intro message
-    function newGame
-        resetGame;
-        if ~quitGame; %incase we try to quit from winner message
-            pauseGame([MESSAGE_INTRO, MESSAGE_CONTROLS]);
-        end
     end
 
 %-----------circle----------------
